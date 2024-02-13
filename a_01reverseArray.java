@@ -6,7 +6,7 @@ public class a_01reverseArray{
 
     public static void reverse(int [] a){
         int t, i=0 ,j=a.length-1;
-        int n;
+        
         while(i<j){
             t=a[i];
             a[i]= a[j];
