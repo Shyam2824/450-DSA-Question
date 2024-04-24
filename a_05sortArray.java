@@ -5,6 +5,7 @@ public class a_05sortArray {
         int z=0;
         int o=0;
         int t=0;
+        int th=0;
         for(int i=0;i<n;i++){
             if(a[i]==0){
                 z++;
@@ -14,6 +15,9 @@ public class a_05sortArray {
             }
             if(a[i]==2){
                 t++;
+            }
+            if(a[i]==3){
+                th++;
             }
         }
 
@@ -27,6 +31,8 @@ public class a_05sortArray {
         
         for(int i=1;i<=t;i++)
             a[index++]=2;
+        for(int i=1;i<=th;i++)
+            a[index++]=3;
     }
     public static void main(String[] args) {
         System.out.println("Enter the number :");
