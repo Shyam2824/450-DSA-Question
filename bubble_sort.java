@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class bubble_sort {
     
     public static void main(String[] args) {
-        int n, i, k , ptr, temp;
+        int n, i, k ,  temp;
 
         Scanner sc= new Scanner(System.in);
         System.out.println("Enter the number of Array: ");
